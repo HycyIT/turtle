@@ -18,7 +18,7 @@ t.speed(3)
 """
 
 
-def bombka():
+"""def bombka():
     for i in range(20):
         t.forward(100)
         t.backward(100)
@@ -31,5 +31,12 @@ def bombka():
 
 
 bombka()
+"""
 
+t.left(40)
+t.forward(60)
+t.circle(30, 200)
+t.left(240)
+t.circle(30, 200)
+t.forward(60)
 turtle.done()
