@@ -5,7 +5,7 @@ t = turtle.Turtle()
 t.shape('turtle')
 t.color("black", "yellow")
 t.width(3)
-t.speed(0)
+t.speed(2)
 
 
 """def spirala():
@@ -71,5 +71,20 @@ t.end_fill()
 t.circle(120)
 t.end_fill()
 t.hideturtle()
+"""
+
+"""
+def pentagram():
+    t.color("black", "red")
+    t.begin_fill()
+    for i in range(5):
+        t.forward(300)
+        t.right(144)
+    t.right(108)
+    t.circle(157)
+    t.end_fill()
+
+
+pentagram()
 """
 turtle.done()
