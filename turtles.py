@@ -2,10 +2,10 @@ import turtle
 
 turtle.bgcolor('white')
 t = turtle.Turtle()
-t.color('green')
 t.shape('turtle')
-t.width(5)
-t.speed(3)
+t.color("black", "yellow")
+t.width(3)
+t.speed(0)
 
 
 """def spirala():
@@ -32,11 +32,44 @@ t.speed(3)
 
 bombka()
 """
-
+"""
 t.left(40)
 t.forward(60)
 t.circle(30, 200)
 t.left(240)
 t.circle(30, 200)
 t.forward(60)
+"""
+
+"""
+def trojkat():
+    for i in range(3):
+        t.right(120)
+        t.forward(100)
+
+
+for i in range(3):
+    t.right(60)
+    t.begin_fill()
+    trojkat()
+    t.color("black", "yellow")
+    t.end_fill()
+    t.right(60)
+    t.begin_fill()
+    trojkat()
+    t.color("black", "green")
+    t.end_fill()
+
+t.speed(2)
+t.forward(100)
+t.begin_fill()
+t.pencolor("white")
+t.forward(20)
+t.left(90)
+t.pencolor("black")
+t.end_fill()
+t.circle(120)
+t.end_fill()
+t.hideturtle()
+"""
 turtle.done()
